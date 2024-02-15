@@ -1,2 +1,2 @@
-# ai_engineering
+# ai-engineering
 Simon's AI Engineering Repository
