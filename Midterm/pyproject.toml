@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "midterm"
+version = "0.1.0"
+description = ""
+authors = ["Simon Monk <smonk@conexiom.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+chainlit = "^1.0.401"
+langchain = "^0.1.11"
+openai = "^1.13.3"
+pymupdf = "^1.23.26"
+langchain-openai = "^0.0.8"
+faiss-cpu = "^1.8.0"
+wandb = "^0.16.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
