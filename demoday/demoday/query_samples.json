@@ -1,0 +1,15 @@
+[
+    {
+        "input": "How many goals has Salah scored this season?",
+        "query": "SELECT goals_scored FROM cleaned_players WHERE full_name = 'Mohamed Salah'"
+    },
+    {
+        "input": "Who are the top 5 goal scorers this season?",
+        "query": "SELECT full_name FROM cleaned_players ORDER BY goals_scored DESC LIMIT 5"
+    },
+    {
+        "input": "Which goal keepers have conceded the most goals this season?",
+        "query": "SELECT FULL_NAME FROM CLEANED_PLAYERS WHERE POSITION = 'GK' ORDER BY GOALS_CONCEDED DESC"
+    }
+]
+

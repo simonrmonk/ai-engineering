@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "demoday"
+version = "0.1.0"
+description = ""
+authors = ["Simon Monk <smonk@conexiom.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+chainlit = "^1.0.401"
+langchain = "^0.1.11"
+openai = "^1.13.3"
+pymupdf = "^1.23.26"
+langchain-openai = "^0.0.8"
+faiss-cpu = "^1.8.0"
+wandb = "^0.16.4"
+mysql-connector-python = "^8.3.0"
+sqlalchemy = "^2.0.29"
+pandas = "^2.2.1"
+chromadb = "^0.4.24"
+pydantic = "<2.0.0"
+langgraph = "^0.0.30"
+langchainhub = "^0.1.15"
+lxml = "^5.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
